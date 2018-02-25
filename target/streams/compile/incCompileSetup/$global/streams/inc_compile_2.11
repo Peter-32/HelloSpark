@@ -1,0 +1,146 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+3 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello$$anonfun$1.class
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello$.class
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello.class
+binary dependencies:
+4 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Users/peterjmyers/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.1.jar
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Users/peterjmyers/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.1.jar
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> /Users/peterjmyers/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+3 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> com.data_in_model_out.spark.SparkHello
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> com.data_in_model_out.spark.SparkHello$
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> com.data_in_model_out.spark.SparkHello$$anonfun$1
+used names:
+58 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> <init>
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> <repeated>
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Any
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> AnyRef
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Array
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> ArrayOps
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Builder
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> DataFrame
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> DataStreamReader
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> DataStreamWriter
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Dataset
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Encoder
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Function1
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Long
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Nothing
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Object
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Predef
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> RelationalGroupedDataset
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Row
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> SparkHello
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> SparkSession
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> StreamingQuery
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> String
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> T
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> TraversableOnce
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> U
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> Unit
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> apache
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> appName
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> as
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> awaitTermination
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> builder
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> com
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> count
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> data_in_model_out
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> flatMap
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> format
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> getOrCreate
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> groupBy
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> implicits
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> lines
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> load
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> newStringEncoder
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> option
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> org
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> outputMode
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> package
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> query
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> readStream
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> refArrayOps
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> scala
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> spark
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> split
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> sql
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> start
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> wordCounts
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> words
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> writeStream
+product stamps:
+3 items
+/Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello$$anonfun$1.class -> lastModified(1519425852000)
+/Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello$.class -> lastModified(1519425852000)
+/Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello.class -> lastModified(1519425852000)
+source stamps:
+1 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> hash(b23067a338806721340dda573e6ea5d2a75575ba)
+binary stamps:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1411773837000)
+/Users/peterjmyers/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.1.jar -> lastModified(1511587618000)
+/Users/peterjmyers/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.1.jar -> lastModified(1511587028000)
+/Users/peterjmyers/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457496963000)
+class names:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/peterjmyers/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.1.jar -> org.apache.spark.sql.Row
+/Users/peterjmyers/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.1.jar -> org.apache.spark.sql.streaming.DataStreamWriter
+/Users/peterjmyers/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Unit
+internal apis:
+1 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwM6RaCwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdwqUTHQABm5vdGlmeXNxAH4ADLr7JMp0AAR3YWl0c3EAfgAMB6od33QADSRhc0luc3RhbmNlT2ZzcQB+AAwV5wmmdAAGZXF1YWxzc3EAfgAMK51MAHQADGFzSW5zdGFuY2VPZnNxAH4ADBRDKUp0AApTcGFya0hlbGxvc3EAfgAMKsoBDXQADHN5bmNocm9uaXplZHNxAH4ADFXkfmV0AA0kaXNJbnN0YW5jZU9mc3EAfgAM/7nlK3QABG1haW5zcQB+AAwksiW4dAAJbm90aWZ5QWxsc3EAfgAM6ZzdVnQADGlzSW5zdGFuY2VPZnNxAH4ADO2nbZN0AAI9PXNxAH4ADE6i32t0AAVjbG9uZXNxAH4ADFudW+V0AAh0b1N0cmluZ3NxAH4ADO8R3pB0AAIhPXNxAH4ADKXfbCJ0AAhnZXRDbGFzc3NxAH4ADHykaFN0AAJuZXNxAH4ADNOojWZ0AAJlcXNxAH4ADCetrBV0AAIjI3NxAH4ADBM5Qgl0AAhmaW5hbGl6ZXNxAH4ADE3+P2J0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ACZjb20uZGF0YV9pbl9tb2RlbF9vdXQuc3BhcmsuU3BhcmtIZWxsb3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB91cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABVjb20uZGF0YV9pbl9tb2RlbF9vdXRzcQB+AKZ0ABtjb20uZGF0YV9pbl9tb2RlbF9vdXQuc3BhcmtzcQB+AKZ0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWHE1obRdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPC9Vc2Vycy9wZXRlcmpteWVycy9iaWRzL0hlbGxvU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLIwZ6M4gGchNA3aVz5updKnVXW6
+external apis:
+0 items
+source infos:
+1 items
+/Users/peterjmyers/bids/HelloSpark/src/main/scala/com/data_in_model_out/spark/SparkHello.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYcR+oOJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPC9Vc2Vycy9wZXRlcmpteWVycy9iaWRzL0hlbGxvU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYcTWhtF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPC9Vc2Vycy9wZXRlcmpteWVycy9iaWRzL0hlbGxvU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
