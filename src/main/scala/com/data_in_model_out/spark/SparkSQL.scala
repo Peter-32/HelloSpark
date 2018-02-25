@@ -2,11 +2,10 @@ package com.data_in_model_out.spark
 
 import org.apache.spark.sql.{Dataset, SparkSession}
 
-
 /**
-  * Created by peterjmyers on 2/23/18.
+  * Created by peterjmyers on 2/24/18.
   */
-object SparkHello {
+object SparkSQL {
   def main(args: Array[String]): Unit = {
 
     val spark = SparkSession
@@ -26,18 +25,14 @@ object SparkHello {
     // Split the lines into words
     val words: Dataset[String] = lines.as[String].flatMap(_.split(" "))
 
-    // Generate running word count
+    words.createOrReplaceTempView("words")
+    val wordsResult = spark.sql("select * from words") // returns another streaming DF
 
-    val wordCounts = words.groupBy("value").count()
-
-    val query = wordCounts.writeStream
-      .outputMode("complete")
+    val query = wordsResult.writeStream
+      .outputMode("append")
       .format("console")
       .start()
 
     query.awaitTermination()
-
   }
-
 }
-
