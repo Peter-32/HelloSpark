@@ -28,3 +28,11 @@ target/scala-2.11/hellospark_2.11-1.0.jar
 --class "com.data_in_model_out.spark.SparkAccumulator" \
 --master "local[4]" \
 target/scala-2.11/hellospark_2.11-1.0.jar
+
+/Users/peterjmyers/Documents/Other/No_Backup_Needed/spark-2.2.1-bin-hadoop2.7/bin/spark-submit \
+--class "com.data_in_model_out.spark.SparkCSVToMySQL" \
+--master "local[4]" \
+target/scala-2.11/hellospark_2.11-1.0.jar
+
+
+
