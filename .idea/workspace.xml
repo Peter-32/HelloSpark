@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c183d467-d74e-4bc8-b561-0a6f23001190" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToMySQL.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/data_in_model_out/spark/SparkCSVToMySQL$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/data_in_model_out/spark/SparkCSVToMySQL.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToMySQL.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToParquet.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/hellospark_2.11-1.0.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/hellospark_2.11-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generate CSV.ipynb" afterPath="$PROJECT_DIR$/Generate CSV.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands" afterPath="$PROJECT_DIR$/commands" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
@@ -69,8 +72,8 @@
       <file leaf-file-name="SparkHello.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="39" column="3" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
+            <state relative-caret-position="528">
+              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -79,38 +82,18 @@
       <file leaf-file-name="SparkSQL.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkSQL.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="972">
               <caret line="36" column="3" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="36" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkBroadcast.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkBroadcast.scala">
+      <file leaf-file-name="SparkCSVToParquet.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToParquet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="3" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="41" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkAccumulator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkAccumulator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkCSVToMySQL.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToMySQL.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="216">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#37#81#0" expanded="true" />
               </folding>
@@ -118,14 +101,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SparkDataset.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkDataset.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SparkSession.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/SparkSession.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="16551">
               <caret line="656" column="46" lean-forward="false" selection-start-line="656" selection-start-column="46" selection-end-line="656" selection-end-column="46" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +124,7 @@
       <file leaf-file-name="DataStreamReader.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/streaming/DataStreamReader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
+            <state relative-caret-position="1269">
               <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
               <folding />
             </state>
@@ -150,23 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForeachWriter.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/ForeachWriter.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="commands" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commands">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="267">
+              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -197,20 +176,20 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/HelloWorld/SparkHello.scala" />
         <option value="$PROJECT_DIR$/spark_submit_commands" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkSQL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkDataset.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkBroadcast.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkAccumulator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkWatermark.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkMySQLMySQL.scala" />
-        <option value="$PROJECT_DIR$/commands" />
         <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToMySQL.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala" />
+        <option value="$PROJECT_DIR$/commands" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToJSON.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="720" />
     <option name="y" value="23" />
     <option name="width" value="720" />
     <option name="height" value="873" />
@@ -230,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,7 +264,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -304,6 +283,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.data_in_model_out.spark" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -651,7 +633,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="23" width="720" height="873" extended-state="0" />
+    <frame x="0" y="23" width="720" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -670,7 +652,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2352071" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39792898" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -700,6 +682,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/ForeachWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToParquet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#37#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -744,9 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,14 +772,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkWatermark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkWatermark.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -810,9 +809,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,9 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,17 +973,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkDataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkBroadcast.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="1107">
           <caret line="41" column="3" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="41" selection-end-column="3" />
           <folding />
         </state>
@@ -996,17 +983,15 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/ForeachWriter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state relative-caret-position="1431">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkAccumulator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="1053">
           <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding />
         </state>
@@ -1020,25 +1005,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkWatermark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="39" column="3" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkWatermark.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkSQL.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="972">
           <caret line="36" column="3" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
@@ -1046,34 +1016,64 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/SparkSession.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="16551">
           <caret line="656" column="46" lean-forward="false" selection-start-line="656" selection-start-column="46" selection-end-line="656" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/streaming/DataStreamReader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
+        <state relative-caret-position="1269">
           <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToMySQL.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkHello.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="528">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/_spark_metadata/2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/_spark_metadata/3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkDataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data_in_model_out/spark/SparkCSVToParquet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#37#81#0" expanded="true" />
           </folding>

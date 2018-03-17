@@ -6,7 +6,7 @@ import org.apache.spark.sql.{Dataset, SparkSession}
 /**
   * Created by peterjmyers on 3/1/18.
   */
-object SparkCSVToMySQL {
+object SparkCSVToParquet {
   def main(args: Array[String]): Unit = {
 
     val spark = SparkSession
@@ -27,11 +27,13 @@ object SparkCSVToMySQL {
     val dataset: Dataset[Double] = csvDF.as[Double]
 
     dataset.createOrReplaceTempView("numbers")
-    val wordsResult = spark.sql("select SUM(one + one) from numbers") // returns another streaming DF
+    val wordsResult = spark.sql("select one from numbers") // returns another streaming DF
 
     val query = wordsResult.writeStream
-      .outputMode("complete")
-      .format("console")
+      .outputMode("append")
+      .format("parquet")
+      .option("checkpointLocation", "checkpoint")
+      .option("path", "output")
       .start()
 
     query.awaitTermination()
