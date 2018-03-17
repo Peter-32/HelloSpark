@@ -20,8 +20,6 @@
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkAccumulator$$typecreator2$1.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkHello.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello.class[0m
-[0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkCSVToJSON$.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkCSVToJSON$.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkHello$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkHello$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkDataset$$typecreator2$1.class[0m
@@ -30,12 +28,12 @@
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkBroadcast$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out[0m
-[0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkCSVToJSON.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkCSVToJSON.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkSQL$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkSQL$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkAccumulator$MyClass.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkAccumulator$MyClass.class[0m
+[0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkCSVToParquet.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkCSVToParquet.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkAccumulator.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkAccumulator.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkAccumulator$MyClass$.class[0m
@@ -54,6 +52,8 @@
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkDataset$MyClass$.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkAccumulator$$anon$1.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkAccumulator$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkCSVToParquet$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkCSVToParquet$.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkDataset$MyClass.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/peterjmyers/bids/HelloSpark/target/scala-2.11/classes/com/data_in_model_out/spark/SparkDataset$MyClass.class[0m
 [0m[[0mdebug[0m] [0m	com/data_in_model_out/spark/SparkBroadcast$MyClass$.class[0m

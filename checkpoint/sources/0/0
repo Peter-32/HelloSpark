@@ -1,2 +1,4 @@
 v1
+{"path":"file:///Users/peterjmyers/bids/HelloSpark/resources/csv_example%202.csv","timestamp":1521173024000,"batchId":0}
+{"path":"file:///Users/peterjmyers/bids/HelloSpark/resources/csv_example%203.csv","timestamp":1521173024000,"batchId":0}
 {"path":"file:///Users/peterjmyers/bids/HelloSpark/resources/csv_example.csv","timestamp":1521173024000,"batchId":0}
